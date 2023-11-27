@@ -1,0 +1,7 @@
+# Ignore compiled object files and executables
+*.o
+*.out
+*.exe
+
+# Ignore user-specific files
+.vscode/
