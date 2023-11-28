@@ -88,7 +88,7 @@ private:
 int main() {
     // Measure the time to create E1
     auto startE1 = chrono::high_resolution_clock::now();
-    cout << "Start creating E1 with a size of 800MB." << endl;
+    cout << "Start creating E1 with a size of 400MB." << endl;
     ExtremelyLargeObject E1(100000000);
     auto stopE1 = chrono::high_resolution_clock::now();
     auto durationE1 = chrono::duration_cast<chrono::microseconds>(stopE1 - startE1);
@@ -96,7 +96,7 @@ int main() {
 
     // Measure the time to create E2
     auto startE2 = chrono::high_resolution_clock::now();
-    cout << "Start creating E2 with a size of 800MB." << endl;
+    cout << "Start creating E2 with a size of 400MB." << endl;
     ExtremelyLargeObject E2(100000000);
     auto stopE2 = chrono::high_resolution_clock::now();
     auto durationE2 = chrono::duration_cast<chrono::microseconds>(stopE2 - startE2);
